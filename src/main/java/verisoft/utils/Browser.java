@@ -1,4 +1,4 @@
-package verisoft.utils;
+package org.verisoft.utils;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;

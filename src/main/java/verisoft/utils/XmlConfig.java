@@ -1,4 +1,4 @@
-package verisoft.utils;
+package org.verisoft.utils;
 
 import org.w3c.dom.Document;
 

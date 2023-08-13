@@ -1,9 +1,9 @@
-package verisoft.classes;
+package org.verisoft.classes;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
-import verisoft.utils.Browser;
+import org.verisoft.utils.Browser;
 
 /**
  * Represents a table in a web page.
@@ -44,7 +44,7 @@ public class Table {
     public String getTableCellTextByXpath (WebElement table, int searchColumn,
                                            String searchText, int returnColumnText) throws Exception{
         try {
-            return table.findElement(By.xpath("//table[@id='customers']/tbody/tr/td[" + searchColumn + "][text()='" + searchText + "']/../td[" + returnColumnText + "]")).getText();
+            return table.findElement(By.xpath("//table[@id='customers']//tr/td[" + searchColumn + "][text()='" + searchText + "']/../td[" + returnColumnText + "]")).getText();
         }
         catch (NoSuchElementException e) {
             System.out.println("Element not found: " + e.getMessage());

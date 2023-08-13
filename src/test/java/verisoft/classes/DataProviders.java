@@ -1,8 +1,8 @@
-package verisoft.classes;
+package org.verisoft.classes;
 
 import org.testng.annotations.DataProvider;
-import verisoft.utils.CsvHandling;
-import verisoft.utils.XmlHandling;
+import org.verisoft.utils.CsvHandling;
+import org.verisoft.utils.XmlHandling;
 
 /**
  * This class provides TestNG data providers for various test cases.

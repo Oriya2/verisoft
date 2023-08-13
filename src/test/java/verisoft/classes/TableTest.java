@@ -1,10 +1,10 @@
-package verisoft.classes;
+package org.verisoft.classes;
 
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import verisoft.utils.Browser;
-import verisoft.utils.XmlConfig;
+import org.verisoft.utils.Browser;
+import org.verisoft.utils.XmlConfig;
 
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
