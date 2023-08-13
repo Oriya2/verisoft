@@ -1,6 +1,8 @@
-import org.verisoft.classes.Table;
-import org.verisoft.utils.Browser;
-import org.verisoft.utils.XmlConfig;
+package verisoft;
+
+import verisoft.classes.Table;
+import verisoft.utils.Browser;
+import verisoft.utils.XmlConfig;
 
 /**
  * This class demonstrates a simple example of using the Table class and related utilities.

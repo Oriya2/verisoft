@@ -1,4 +1,4 @@
-package org.verisoft.utils;
+package verisoft.utils;
 
 import com.opencsv.CSVReader;
 import com.opencsv.exceptions.CsvValidationException;
